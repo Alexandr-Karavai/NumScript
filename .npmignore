@@ -1,0 +1,27 @@
+node_modules/
+bower_components/
+src/
+test/
+tmp/
+.sass-cache/
+.tmp/
+
+# Mac finder artifacts
+.DS_Store
+**/.DS_Store
+
+.npm-debug.*
+
+.*.swp
+._*
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
+fundoc-parser-logo.png
+.travis.yml
