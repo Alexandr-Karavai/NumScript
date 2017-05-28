@@ -11,7 +11,7 @@ const repl = () => {
     try {
       const result = i.exec(code);
       if (result !== undefined) {
-        // console.log(result);
+        console.log(result);
       }
     } catch (err) {
       console.error(err);
