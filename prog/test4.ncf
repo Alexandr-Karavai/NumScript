@@ -1,0 +1,1 @@
+(def l `(1 2 3 4)) (map (fn (x) (* x x)) l)(filter (fn (x) (> x 2)) l)(reduce (fn (a b) (+ a b)) l)(conj l 5)(nth l 2)

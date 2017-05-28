@@ -1,0 +1,11 @@
+(def (fib n)
+    (if (<= n 1)
+        n
+        (+ (fib (- n 1))
+           (fib (- n 2)))))
+
+(def n 0)
+
+(while (< n 15)
+       (do (set! n (+ n 1))
+           (print (+ n " Fibonacci number is " (fib n)))))
